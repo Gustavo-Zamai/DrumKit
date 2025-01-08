@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000957;
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    min-height: 70vh;
+    padding: 5rem;
+}
+
+
+.container h1 {
+    font-size: 6rem;
+    font-family: "Knewave", serif;
+    font-weight: 600;
+    color: #D5E7B5;
+}
+
+.container img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.drum-set {
+    padding: 4rem;
+    margin: 4rem 4rem;
+}
+
+.drum-set button {
+    width:8rem;
+    height: 8rem;
+    margin: 1rem;
+    border: #40467e solid .8rem;
+    border-radius: 1rem;
+    background-color: #D5E7B5;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #C62300;
+}
+
+.drum-set p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.footer {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #D5E7B5;
+}
