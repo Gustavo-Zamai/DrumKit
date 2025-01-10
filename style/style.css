@@ -74,6 +74,12 @@ body {
     background-image: url('/assets/images/snare.png');
 }
 
+.pressed {
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: .5;    
+    animation-duration: 2s;
+}
+
 footer {
     display: flex;
     justify-content: center;
