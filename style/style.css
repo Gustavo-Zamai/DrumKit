@@ -46,13 +46,6 @@ body {
     color: #e41576;
 }
 
-.drum-set p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-}
-
 .w {
     background-image: url('/assets/images/tom1.png');
 }
